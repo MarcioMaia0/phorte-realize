@@ -1,0 +1,25 @@
+#noscrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+
+#noscrollbar::-webkit-scrollbar-track {
+  background: #242943;
+  border-radius: 100px;
+}
+
+/* Handle */
+
+#noscrollbar::-webkit-scrollbar-thumb {
+  background: #697cd0;
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+
+#noscrollbar::-webkit-scrollbar-thumb:hover {
+  background: #5c6382;
+  border-radius: 100px;
+}
+

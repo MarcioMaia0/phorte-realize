@@ -1,0 +1,39 @@
+{
+    "groups":
+    [
+        {
+            "name": "Formatação",
+            "interactions":
+            [
+                {
+                    "name": "Tópico phorte",
+                    "slug": "THEMER-PHORTE",
+                    "available": true,
+                    "field":
+                    [
+                        {
+                            "label": "Texto",
+                            "full": true,
+                            "required": true,
+                            "type": "editor",
+                            "preview": "<p>Testando</p>",
+                            "placeholder": "Preencha aqui o texto de Texto",
+                            "name": "TEXT"
+                        }
+                    ],
+                    "build": "<div class=\"cover cover-phorte\">[TEXT]</div>"
+                }
+            ]
+        }
+    ],
+    "plugins":
+    [
+        "E-IFRAME",
+        "T-FIGURA",
+        "T-VIDEO",
+        "T-PODCAST",
+        "I-ZSANFONA",
+        "Q-QUESTION",
+        "Q-MULTIPLEANSWERS"
+    ]
+}
